@@ -1,10 +1,10 @@
 function EmailContainer() {
     return (
-        <div className="w-full min-h-[70vh] flex justify-center items-center">
+        <div className="w-full min-h-[50vh] flex justify-center items-center pb-[100px]">
             <div className="flex flex-col items-center gap-20">
-                <h2 className="font-medium text-[140px] leading-[110%] tracking-[-0.02em] text-center">Let’s talk!</h2>
-                <button className="rounded-[144px] p-[32px] w-[262px] h-[92px] bg-black flex justify-center items-center cursor-pointer gap-2">
-                    <span className="font-medium text-[20px] leading-[140%] tracking-[-0.01em] text-white">
+                <h2 className="font-medium text-[calc(7rem+0.8vw)] leading-[110%] tracking-[-0.02em] text-center max-[500px]:text-[calc(4rem+0.9vw)]">Let’s talk!</h2>
+                <button className="rounded-[144px] py-[35px] px-[50px] bg-black flex justify-center items-center cursor-pointer gap-2 max-[950px]:py-[25px]" >
+                    <span className="font-medium text-[calc(0.45rem+0.8vw)] leading-[140%] tracking-[-0.01em] text-white">
                         hello@joey.co
                     </span>
                     <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">

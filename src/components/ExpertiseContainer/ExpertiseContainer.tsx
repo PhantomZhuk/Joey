@@ -26,9 +26,9 @@ function ExpertiseContainer() {
     ]
 
     return (
-        <div className="w-full min-h-[80vh] px-[110px] flex flex-col gap-10">
-            <h2 className="font-medium text-[48px] leading-[120%] tracking-[-0.01em]">Expertise</h2>
-            <div className="flex flex-wrap gap-10 justify-between mt-[50px]">
+        <div className="w-full max-h-[90vh] px-[110px] py-[50px] flex flex-col gap-10 max-[1150px]:px-[50px] max-[830px]:px-[40px] max-[680px]:gap-5 max-[500px]:px-[16px]">
+            <h2 className="font-medium text-[calc(1.8rem+0.8vw)] leading-[120%] tracking-[-0.01em]">Expertise</h2>
+            <div className="flex flex-wrap gap-10 justify-between mt-[50px] max-[680px]:mt-[20px]">
                 {expertises.map((expertise) => (
                     <ExpertiseCard key={expertise.id} title={expertise.title} description={expertise.description} />
                 ))}
