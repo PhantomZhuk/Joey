@@ -5,35 +5,34 @@ import Card3 from "../../assets/Card3 - Element-desktop.png"
 import Card4 from "../../assets/Card4 - Element-desktop.png"
 import ProjectCard from "../ProjectCard/ProjectCard";
 
+export const projects = [
+    {
+        id: 1,
+        title: "Crtly",
+        description: "Mobile App",
+        image: Card1,
+    },
+    {
+        id: 2,
+        title: "Tansto",
+        description: "Web Design",
+        image: Card2,
+    },
+    {
+        id: 3,
+        title: "Senta",
+        description: "Mobile App & Branding",
+        image: Card3,
+    },
+    {
+        id: 4,
+        title: "Crint",
+        description: "Mobile App",
+        image: Card4,
+    },
+]
+
 function ProjectContainer() {
-
-    const projects = [
-        {
-            id: 1,
-            title: "Crtly",
-            description: "Mobile App",
-            image: Card1,
-        },
-        {
-            id: 2,
-            title: "Tansto",
-            description: "Web Design",
-            image: Card2,
-        },
-        {
-            id: 3,
-            title: "Senta",
-            description: "Mobile App & Branding",
-            image: Card3,
-        },
-        {
-            id: 4,
-            title: "Crint",
-            description: "Mobile App",
-            image: Card4,
-        },
-    ]
-
     return (
         <div className="w-full min-h-screen flex flex-col px-[110px] gap-10 pb-[50px] max-[1150px]:px-[50px] max-[830px]:px-[40px] max-[500px]:px-[16px]">
             <div className="w-full h-[20vh] flex justify-between items-end max-[500px]:items-start max-[500px]:justify-end">

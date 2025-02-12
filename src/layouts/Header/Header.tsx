@@ -23,7 +23,7 @@ function Header() {
     ];
 
     return (
-        <div className="w-full h-[20vh] flex flex-col items-center py-5 max-[600px]:h-[15vh] max-[600px]:flex-row max-[600px]:justify-between">
+        <div className="w-full h-[20vh] flex flex-col items-center py-5 max-[600px]:h-[15vh] max-[600px]:flex-row max-[600px]:justify-between px-[110px] max-[1150px]:px-[50px] max-[830px]:px-[40px] max-[500px]:px-[16px]">
             <h1 className="font-bold text-3xl">Joey&reg;</h1>
             <nav className="flex gap-4 rounded-[48px] px-[5px] bg-black w-[470px] h-[56px] justify-between items-center mt-[20px] max-[600px]:hidden" onMouseLeave={() => setActive(defaultActive)}>
                 <div className={`active rounded-[48px] p-4 w-[87px] h-[46px] bg-white absolute transition-all delay-120 ${active === 1 ? 'ml-0' : active === 2 ? 'ml-[110px] w-[110px]' : active === 3 ? 'ml-[245px] w-[90px]' : 'ml-[360px] w-[100px]'}`}></div>
